@@ -1,0 +1,377 @@
+body {
+    background-image: url("../imagenes/design/f3.jpg");
+    background-color: rgb(20, 20, 20);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+/*---------------------------------------------*/
+
+.imagen-portada {
+    background-image: url("../imagenes/design/portada.png");
+    background-color: #30444F;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#fondo-mazda {
+    background-image: url("../imagenes/design/fondo-mazda-6.jpg");
+}
+
+#fondo-mazda .texto-portada {
+    top: 10%;
+}
+
+#fondo-nissan {
+    background-image: url("../imagenes/design/fondo-nissan-1.jpg");
+}
+
+#fondo-nissan .texto-portada {
+    top: 10%;
+}
+
+#fondo-toyota {
+    background-image: url("../imagenes/design/fondo-toyota-3.jpg");
+}
+
+#fondo-toyota .texto-portada {
+    top: 10%;
+}
+
+.texto-portada {
+    font-size: 21px;
+    font-family: Gothic;
+    text-align: left;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: white;
+}
+
+/*---------------------------------------------*/
+
+.cuerpo {
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 5%;
+    background-color: lightgray;
+    border-radius: 15px;
+
+}
+
+/*---------------------------------------------*/
+
+.top-menu {
+    background-color: rgb(65, 66, 78);
+    overflow: hidden;
+    padding-right: 2%;
+}
+
+.top-menu p{
+    margin-left: 3%;
+    float: left;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.top-menu a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: .5s;
+}
+
+.top-menu a:hover {
+    background-color: rgb(209, 0, 0);
+}
+
+.top-menu a.actual {
+    background-color: rgb(209, 0, 0);
+}
+
+/*---------------------------------------------*/
+
+#cuerpoIndex {
+    background-color: rgba(138, 138, 138, 0.7);
+    margin: 5% 0%;
+    height: 800px;
+    padding: 2% 10% 2%;
+    border-radius: 0;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+#cuerpoFoto1 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-top: 30%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 10%;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: justify;
+}
+
+#fotoIndex1 {
+    background-image: url("../imagenes/design/foto-index-1.jpg");
+    float: left;
+    position: relative;
+    border-radius: 15px;
+    height: 800px;
+    width: 663px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*---------------------------------------------*/
+
+.barra-inferior {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    background-color: rgb(65, 66, 78);
+    column-count: 2;
+    column-rule-style: solid;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px;
+}
+
+.barra-inferior a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: .5s;
+}
+
+.barra-inferior a:hover {
+    background-color: rgb(209, 0, 0);
+}
+
+/*---------------------------------------------*/
+
+.tarjeta {
+    background-image: url("../imagenes/design/fondo1.png");
+    float: left;
+    width: 190px;
+    height: 270px;
+    border-radius: 20px;
+    position: relative;
+    padding: 29px;
+    border: 2px solid #222222;
+    transition: 0.5s ease-out;
+    margin-left: 10%;
+    display: grid;
+    align-content: center;
+}
+
+
+.fotosLogo {
+    margin-top: 0;
+}
+
+#logoToyota {
+    width: 200px;
+    height: 127px;
+}
+
+.fotosLogo img {
+    width: 200px;
+    height: 175px;
+    transition: 1s;
+}
+
+.boton-tarjeta {
+    transform: translate(-50%, 125%);
+    width: 60%;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(209, 0, 0);
+    color: #ffff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 10px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+    text-align: center;
+}
+
+.tarjeta:hover {
+    border-color: rgb(209, 0, 0);
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 2px 50px;
+}
+
+.tarjeta:hover .boton-tarjeta {
+    transform: translate(-50%, 50%);
+    opacity: 1;
+}
+
+.tarjeta a {
+    color: #BCC5CE;
+    text-decoration: none;
+}
+
+/*---------------------------------------------*/
+
+.coches {
+    position: relative;
+}
+
+.coches p,
+h2 {
+    position: relative;
+    z-index: 1;
+    margin: 20px 15%;
+}
+
+.coches table {
+    position: relative;
+    z-index: 1;
+    margin: 20px 15%;
+    border-collapse: collapse;
+    width: -webkit-fill-available;
+    border-color: #222222;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.coches table th {
+    background-color: rgba(48, 68, 79, 0.9);
+    color: aliceblue;
+}
+
+.coches::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    rotate: -2deg;
+    translate: -50% -50%;
+    width: 110%;
+    height: 75%;
+    background: rgba(228, 228, 228, 0.7);
+}
+
+/*---------------------------------------------*/
+
+.botones-final {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.botones-final a {
+    background-color: rgb(228, 228, 228);
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+    padding: 2px 10px;
+    border-radius: 10px;
+    margin: 0 10px;
+    transition: .5s;
+}
+
+.botones-final a:hover {
+    background-color: rgb(209, 0, 0);
+    color: rgb(228, 228, 228);
+    box-shadow: 0px 0px 20px rgb(209, 0, 0);
+}
+
+/*---------------------------------------------*/
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.sugerencias {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #e6e6e6;
+    padding: 0.4em 1em;
+    background-color: rgb(65, 66, 78);
+    border-radius: 25px;
+    width: fit-content;
+    height: fit-content;
+    font-size: 20px;
+}
+
+.sugerencias fieldset {
+    box-shadow: inset 2px 5px 10px rgb(17, 17, 17);
+    border: transparent;
+    border-radius: 25px;
+    margin: 10px 0px;
+}
+
+.sugerencias input::placeholder {
+    color: #242424;
+}
+
+.sugerencias input:focus::placeholder {
+    color: #e6e6e6;
+}
+
+.sugerencias input, .sugerencias textarea{
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid rgb(65, 66, 78);
+}
+
+.sugerencias input:focus, .sugerencias textarea:focus{
+    background-color: rgb(209, 0, 0);
+    color: rgb(228, 228, 228);
+    box-shadow: inset 2px 5px 10px rgb(29, 29, 29);
+    border-color: transparent;
+}
+
+.sugerencias .titulo {
+    font-size: 24px;
+    color: #e6e6e6;
+    margin-bottom: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.boton-formulario {
+    display: flex;
+    justify-content: center;
+}
+
+.boton-formulario a, .boton-formulario input{
+    background-color: #e6e6e6;
+    color: black;
+    width: fit-content;
+    height: fit-content;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 5px 50px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.boton-formulario a:hover, .boton-formulario input:hover {
+    background-color: rgb(209, 0, 0);
+    color: rgb(228, 228, 228);
+    box-shadow: inset 2px 5px 10px rgb(29, 29, 29);
+    border-color: transparent;
+}
