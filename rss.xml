@@ -1,0 +1,33 @@
+﻿<!--  La parte fija del fichero xml correspondiente a un rss  -->
+<rss version="2.0">
+<channel>
+  <title>Noticias del motor</title>
+  <link>https://car-analytics.netlify.app/rss.xml</link>
+  <description>Esta va a ser la Feed de noticias sobre el mundo del motor y algunas de las novedades mas interesantes.</description>
+  <!--  La parte fija opcional  -->
+  <language>es-ES</language>
+  <!--  La parte variable, la que corresponde a cada noticia o ítem  -->
+  <item>
+    <title>El nuevo coche electrico esta rompiendo todos los records</title>
+    <link>https://www.monkeymotor.net/2023/05/rimac-nevera-destrozo-23-records-1-dia-video.html</link>
+    <description>El Rimac Nevera es el auto eléctrico más rápido del mundo, de eso no hay ningun duda. 
+    Pero ahora, el hiperauto croata también quiere quedarse con el mote del auto más rápido del mundo, 
+    sin distinción de tipo motorización. El Nevera logró romper 23 récords en sólo 1 día.</description>
+  </item>
+  <item>
+    <title>Piloto de drift uruguayo edquiere el unico Toyota AE 86 Trueno de Uruaguay</title>
+    <link>https://www.monkeymotor.net/2023/04/truerrari-toyota-ae86-trueno-uruguay-motor-ferrari.html</link>
+    <description>Fernando adquirió el Toyota AE 86 Trueno en 2009. En ese entonces, 
+    el auto estaba en muy mal estado "completamente fundido", como el mismo lo detalló 
+    en una entrevista brindada a Autoblog Uruguay. En esa misma entrevista, Fer detalla 
+    que al Hachi-Roku lo importó a Uruguay el embajador de Estados Unidos en los años 
+    ochenta y luego fue pasando por varios dueños. Este Trueno es la única unidad que 
+    se conoce que haya sido patentada en Uruguay. Al año siguiente, en 2010 el Toyota 
+    AE 86 Trueno uruguayo ya estaba restaurado por completo y listo para entrar a competir 
+    en el mundo del drift. El Hachi-Roku equipaba el motor 4age, 1.6 litros que entregaba 
+    una potencia de 112 CV y a Fer Monti esa potencia ya le sabía a poco. Es por eso, 
+    que se encaminó en cambiar el motor por un 3sge beams 2.0 litros supercharged de 239 
+    CV, proceso que finaliza en 2014.</description>
+  </item>
+</channel>
+</rss>
