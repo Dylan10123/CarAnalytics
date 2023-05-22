@@ -375,3 +375,29 @@ h2 {
     box-shadow: inset 2px 5px 10px rgb(29, 29, 29);
     border-color: transparent;
 }
+
+/*---------------------------------------------*/
+
+.icono-rss {
+    background-color: rgb(65, 66, 78);
+    position: absolute;
+    width: 100%;
+
+}
+
+.icono-rss img {
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    transition: .3s;
+    box-shadow: 3px 3px 3px black;
+    border-radius: 10px;
+}
+
+.icono-rss img:hover {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 1.5%;
+}
