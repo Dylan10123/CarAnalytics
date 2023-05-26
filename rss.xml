@@ -1,12 +1,12 @@
-﻿<!--  La parte fija del fichero xml correspondiente a un rss  -->
+﻿<!--  Info  -->
 <rss version="2.0">
 <channel>
   <title>Noticias del motor</title>
   <link>https://car-analytics.netlify.app/rss.xml</link>
   <description>Esta va a ser la Feed de noticias sobre el mundo del motor y algunas de las novedades mas interesantes.</description>
-  <!--  La parte fija opcional  -->
+  <!--  Lengua  -->
   <language>es-ES</language>
-  <!--  La parte variable, la que corresponde a cada noticia o ítem  -->
+  <!--  Nuevas noticias  -->
   <item>
     <title>El nuevo coche electrico esta rompiendo todos los records</title>
     <link>https://www.monkeymotor.net/2023/05/rimac-nevera-destrozo-23-records-1-dia-video.html</link>
