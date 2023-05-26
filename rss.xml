@@ -4,6 +4,7 @@
   <title>Noticias del motor</title>
   <link>https://car-analytics.netlify.app/rss.xml</link>
   <description>Esta va a ser la Feed de noticias sobre el mundo del motor y algunas de las novedades mas interesantes.</description>
+   <link rel="shortcut icon" href="./imagenes/car.png">
   <!--  Lengua  -->
   <language>es-ES</language>
   <!--  Nuevas noticias  -->
